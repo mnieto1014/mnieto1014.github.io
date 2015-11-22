@@ -1,0 +1,60 @@
+
+
+body{
+
+
+	background-color: black;
+
+
+}
+
+#monogram{
+
+	display: inline;
+	height: 100px;
+	width: 107px;
+	overflow: hidden;
+	position: fixed;
+	
+
+
+}
+
+#MAN{
+
+	height:100px;
+	width: auto;
+
+}
+
+#MAN:hover{
+
+	opacity: 0.3;
+
+
+}
+
+
+
+
+
+
+#top-bar{
+
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	left: 250px;
+	top:15px;
+	color:white;
+
+
+}
+
+#bar-item{
+
+	display: inline-block;
+	padding: 20px;
+
+
+}
+
