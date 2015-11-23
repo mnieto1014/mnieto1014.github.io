@@ -34,7 +34,12 @@ body{
 
 }
 
+#MAN:active{
 
+	opacity: 1;
+	color: white;
+
+}
 
 
 
@@ -58,3 +63,16 @@ body{
 
 }
 
+#bar-item:hover{
+
+
+	opacity: 0.3;
+
+}
+
+
+#bar-item:active{
+
+color: white;
+opacity: 1;
+}
