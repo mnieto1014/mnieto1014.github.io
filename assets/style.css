@@ -51,6 +51,8 @@ body{
 	left: 150px;
 	top:15px;
 	color:white;
+	width: 50%;
+
 
 
 }
@@ -75,4 +77,217 @@ body{
 
 color: white;
 opacity: 1;
+}
+
+
+
+a:link{
+
+	text-decoration: none; 
+	color: #fff; 
+	border-bottom:none; 
+	
+
+
+}
+
+.drawing1{
+
+
+		width:650px;
+		margin: auto;
+		position: fixed;
+		top: 150px;
+		left: 450px;
+
+}
+
+.img{
+
+	width: 960px;
+	height: auto;
+
+
+
+
+}
+
+#horizontalcut{
+
+
+	max-width: 100%;
+	position: relative;
+}
+
+
+/* Styling the Sidebar Button */
+#sidebar-button {
+	position: fixed;
+	z-index: 101;
+	left: 15px;
+	top: 15px;
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+} 
+
+#sidebar-button.active{
+
+	-webkit-transform: translateX(280px);
+
+}
+
+/* Overriding default styles on the ul */
+.sidebar-container  {
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+	position: fixed;
+	width: 280px;
+	height: 100%;
+	background-color: black;
+	-webkit-transform: translateX(-280px);
+	-webkit-transition: all 0.3s;);
+
+}
+
+
+.sidebar-item {
+
+	font-weight: 700;
+	font-size: 16px;
+	font-color: white;
+	color: white;
+	padding: 15px 20px 15px 20px;
+	
+	
+}
+
+.page-wrapper {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+.page-wrapper.active {
+	
+	-webkit-transform: translateX(280px);
+}
+
+
+
+/* Styling for the carousel previous button */
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+.carousel-container{
+	width: 960px;
+	margin: auto;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+
+}
+
+#carousel{
+
+	width: 4800px;
+	height: 500px;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+
+
+}
+
+.carousel-item{
+
+	width: 960px;
+	position: relative;
+	height: 500px;
+	float: left;
+
+}
+
+
+.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+.wrapper-active, .button-active {
+	-webkit-transform: translateX(280px);
+	-moz-transform: translateX(280px);
+	transform: translateX(280px);
+}
+
+.sidebar-container.active {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+}
+
+#resume{
+
+	width:50%;
+	height: auto;
+	position: absolute;
+		top: 200px;
+
+
+
+}
+#address{
+
+	color: white;
+	position: relative;
+
+
+
+}
+
+#phonenumber{
+
+
+	color: white;
+	position: relative;
+
 }
